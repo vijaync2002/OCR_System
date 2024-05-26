@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCI Detector</title>
+        
+<link rel="shortcut icon" sizes="16x16" href="{{ url_for('static', filename='static/logo.jpg') }}"/>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="{{ url_for('static', filename='bootstrap.css') }}">
+
+    <!-- Stylesheet -->
+<link rel="stylesheet" type="text/css"  href="{{ url_for('static', filename='static/style.css') }}">
+    </head>
+    <body>
+<nav class="navbar-fixed-top transparrent-bg">
+  <div class="container">
+    <div id="menuzord" class="menuzord red"> <a href="" class="menuzord-brand"><img src="{{url_for('static', filename='logo.jpg')}}" />
+
+</a>
+            
+    </div>
+  </div>
+</nav>
+        <div class="riceimages">
+            <img id="riceimg" src='static/paddy2.jpg'/>
+        </div>
+   
+    <div class="container">
+       <div class="riceimages">
+        <h1>Detected Railway coach code</h1>
+        <body>
+
+    <div class="c1">
+
+
+        <hr>
+        <div class="con3">
+            <!-- <h3>Text</h3> -->
+            <h2> {{caption}}</h2>
+        </div>
+        
+    </div>
+    
+</body>
+        </div> 
+       </div>

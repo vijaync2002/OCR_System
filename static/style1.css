@@ -1,0 +1,47 @@
+:root {
+    font-family: sans-serif;
+  
+    --image-size: 800px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  .imgandcont    {
+    width: var(--image-size);
+    height: 200px;
+  padding-top: 0;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px;
+  
+    background-image: url("dog-4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+  }
+
+  body{
+    display: flex;
+    justify-content: center;
+  }
+
+.con2{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.con3{
+    display: flex;
+    justify-content: center;
+}
